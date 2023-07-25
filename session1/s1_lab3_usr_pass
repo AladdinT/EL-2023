@@ -11,7 +11,7 @@ lab3:
     if not the system will print incorrect entry.
 '''
 
-users = {'ahmad': '1394', 'ali': '1548', 'amr': '1328'}
+users = {'ahmad': '1394', 'ali': '6078', 'amr': '9345'}
   
 while(True):
     username = str(input("Enter your username: ") ).strip() 
