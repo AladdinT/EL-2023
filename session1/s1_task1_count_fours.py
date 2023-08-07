@@ -1,5 +1,5 @@
 '''
-Session 2
+Session 1
 Task 1:
     Write a Python program to count the number 4 in a given list.
 '''

@@ -1,5 +1,5 @@
 '''
-Session 2
+Session 1
 Task 2:
     Write a Python program to test whether a passed letter is a vowel or not.
 '''

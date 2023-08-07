@@ -11,7 +11,7 @@ print("Birthday: 10/8", end='\n')
 print("Faculty : HTI\nemail: tuhami.10.8@gmail.com\nAddress: Giza")
 
 '''
-Multible 
+Multiple 
 line
 comment
 
