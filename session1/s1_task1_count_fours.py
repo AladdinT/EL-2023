@@ -6,9 +6,6 @@ Task 1:
 
 given_list = str(input("enter a string of numbers : "))
 given_list = list(given_list)
-counter = 0
-for i in range(len(given_list)):
-    if given_list[i] == '4':
-        counter+=1
+counter = given_list.count('4')
 
 print(f"There are {counter} of 4's in this list ")
