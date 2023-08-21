@@ -13,7 +13,7 @@ percentage = battery.percent
 print(percentage)
 
 title = "Battery Status"
-message =  "Your Battery is " +str(percentage) + "% Charged" 
+message =  "Your Battery is " + str(percentage) + "% Charged" 
 
 
 if platform.system() == "Windows":
@@ -29,6 +29,7 @@ elif platform.system() == "Linux":
     notf = notify2.Notification(title, message)
     notf.show()
 
+# # Not working anymore dont know why
 # from pynotify import Notfication
 # Notfication("title","msg",duration=10).send()
     
