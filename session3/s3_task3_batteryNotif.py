@@ -28,4 +28,7 @@ elif platform.system() == "Linux":
     notify2.init("Notification App")
     notf = notify2.Notification(title, message)
     notf.show()
+
+# from pynotify import Notfication
+# Notfication("title","msg",duration=10).send()
     
