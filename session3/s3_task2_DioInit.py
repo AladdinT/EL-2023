@@ -8,15 +8,16 @@ print("Choose each pin direction configuration (I/O) ")
 in_poss =  ['in','input','i','read','r', '0']
 out_poss = ['out', 'output','o','write','w' , '1']
 ddr = 0
-for i in range(8):
+i = 0
+while i < 8:
     pinCfg = str(input(f'Port A Pin {i} : ')).lower().strip()
     if pinCfg in in_poss:
         ddr &=  ~(0 << (i))
     elif pinCfg in out_poss:
         ddr |=  1 << (i)
     else:
-        #TODO : wanted to i-=1 but didnt work as it is in range list not actually incrementing
-        pass
+        i -= 1
+    i += 1
 
 ddr = "{0:b}".format(ddr)
 
