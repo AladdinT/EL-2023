@@ -12,6 +12,12 @@ Task 4:
 #  pip install pyautogui
 import pyautogui as pag
 import time
+import os
+print('-'*20)
+print(os.getcwd())
+script_path = os.path.dirname( os.path.abspath(__file__) )
+os.chdir(script_path)
+print(os.getcwd())
 
 pag.PAUSE = 1
 # pag.click('icons/clangd_logo.png')
@@ -37,7 +43,7 @@ for app in extensions:
     pag.keyUp('backspace')
     pag.write(app)
     time.sleep(3)
-
+    
     # Locate app icon then click on it
     icon_location = None
     while(icon_location == None):
@@ -48,7 +54,7 @@ for app in extensions:
     
     # See if it is install-able
     button_location = None
-    button_location = pag.locateOnScreen( 'icons/install_button.png' ,  confidence=0.8 , minSearchTime=10)
+    button_location = pag.locateOnScreen( 'icons/install_button.png' ,  confidence=0.80 , minSearchTime=10)
     
     if button_location == None:
         print( app + " Already installed" )
@@ -66,5 +72,4 @@ print("-"*10 + " COMPLETED " + '-'*10)
     
     
     
-
 

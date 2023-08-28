@@ -1,4 +1,4 @@
 void Init_PORTA_DIR (void)
 {
-	DDRA = 11111000;
+	DDRA = 11110000;
 }
