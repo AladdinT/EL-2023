@@ -12,13 +12,12 @@ def on_triggered():
 
 def listen_for_shortcut():
     # Set the desired shortcut key combination
-    shortcut = "ctrl + alt + k"
+    shortcut = "ctrl + alt + s"
 
     # Register the callback function for the shortcut
     keyboard.add_hotkey(shortcut, on_triggered)
     
     # Countinously listen for keyboard events
     keyboard.wait()
-    
 
 listen_for_shortcut()
