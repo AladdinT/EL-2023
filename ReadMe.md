@@ -1,5 +1,5 @@
 # EL-2023
-Welcome to Eng. Moatasem Elsayed Embedded Linux Diploma 2023 repository! This repository is designed to serve as a platform for mentors to solve tasks related to the embedded Linux diploma. Here, mentors can contribute solutions, share knowledge, and guide students in their learning journey.
+Welcome to Eng. Moatasem Elsayed Embedded Linux Diploma 2023 repository! This repository is designed to serve as a platform to solve tasks related to the embedded Linux diploma. 
 
 # Diploma Topics
 
